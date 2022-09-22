@@ -8,6 +8,6 @@ public class PageController {
 
   @GetMapping("/hello-page")
   public String getPage() {
-    return "index.html";
+    return "index";
   }
 }
